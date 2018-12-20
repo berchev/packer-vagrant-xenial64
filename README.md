@@ -27,15 +27,15 @@ Durring the building process you will need  **Virtualbox** and **VMware Workstat
 
 In order to use the already created box you need **Vagrant** tool installed.
 
-Please find Install section below in order to find out how to install **Virtualbox**, **Packer** and **Vagrant**.
+Please find Install section below in order to find out how to install **Virtualbox**, **Packer**, **Vagrant** and **VMware Workstation**.
 
 
 
 ## Install Section:
-**Note that following instructions have been tested in Ubuntu**
+**Note that following instructions have been tested in Ubuntu 18.04**
 
 ### Instructions HOW to install `VMware Workstation`
-- Go to [VMware Workstation downloads](https://my.vmware.com/web/vmware/details?downloadGroup=WKST-1502-LX&productId=799&rPId=28902) and click on Download Now
+- Go to [VMware Workstation downloads](https://my.vmware.com/web/vmware/details?downloadGroup=WKST-1502-LX&productId=799&rPId=28902) and click on **Download Now**
 - Make the downloaded bundle file executable: `sudo chmod +x ~/Downloads/VMware-Workstation-Full-15*.bundle`
 - Execute the bundle: `sudo ~/Downloads/VMware-Workstation-Full-15*.bundle`
 
