@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: xenial64_vbox 
+    driver:
+      box: xenial64_vbox
+      provider: virtualbox
+  - name: xenial64_vmware
+    driver:
+      box: xenial64_vmware
+      provider: vmware_desktop
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
