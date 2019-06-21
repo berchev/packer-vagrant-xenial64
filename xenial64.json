@@ -117,6 +117,7 @@
         "scripts/virtualbox.sh",
         "scripts/virtualbox_cleanup.sh"
       ],
+      "expect_disconnect": true,
       "type": "shell"
     },
     {
@@ -128,6 +129,7 @@
         "scripts/vmware.sh",
         "scripts/vmware_cleanup.sh"
       ],
+      "expect_disconnect": true,
       "type": "shell"
     }
   ],
